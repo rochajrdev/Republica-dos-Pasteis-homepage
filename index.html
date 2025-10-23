@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>República dos Pastéis | Os mais crocantes de Aracaju</title>
+		<meta name="description" content="Pastéis crocantes e recheados de Aracaju. Caldo de cana geladinho. Peça agora na República dos Pastéis!" />
+		<meta name="theme-color" content="#ff7a00" />
+
+		<!-- Open Graph / Social -->
+		<meta property="og:title" content="República dos Pastéis" />
+		<meta property="og:description" content="Os pastéis mais crocantes e recheados de Aracaju. Peça agora!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://republica-dos-pasteis.vercel.app/" />
+		<meta property="og:image" content="https://images.unsplash.com/photo-1598722490072-88e0b6fd1ab9?q=80&w=1200&auto=format&fit=crop" />
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="assets/css/styles.css" />
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="site-header" id="topo">
+			<div class="container header-inner">
+				<a class="brand" href="#topo" aria-label="Página inicial">
+					<span class="brand-text">República dos Pastéis</span>
+				</a>
+				<button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+					<span></span><span></span><span></span>
+				</button>
+				<nav class="nav" aria-label="Menu principal">
+					<ul>
+						<li><a href="#inicio">Início</a></li>
+						<li><a href="#cardapio">Cardápio</a></li>
+						<li><a href="#sobre">Sobre Nós</a></li>
+						<li><a href="#contato">Contato</a></li>
+					</ul>
+					<a class="btn cta" href="https://republica-dos-pasteis.vercel.app/" target="_blank" rel="noopener noreferrer">Faça já o seu pedido</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<!-- Hero -->
+			<section id="inicio" class="hero" aria-label="Bem-vindo">
+				<div class="hero-media" role="img" aria-label="Pastéis crocantes e caldo de cana gelado"></div>
+				<div class="container hero-content">
+					<img class="hero-logo" src="assets/img/logo.png" alt="Logo República dos Pastéis" />
+					<h1>🧡 Bem-vindo à República dos Pastéis!</h1>
+					<p class="subtitle">Os pastéis mais crocantes e recheados de Aracaju te esperam. <br/>Peça agora e sinta o sabor da nossa tradição!</p>
+					<a class="btn btn-lg cta" href="https://republica-dos-pasteis.vercel.app/" target="_blank" rel="noopener noreferrer">FAÇA JÁ O SEU PEDIDO →</a>
+				</div>
+			</section>
+
+			<!-- Por que escolher -->
+			<section class="features" aria-labelledby="features-title">
+				<div class="container">
+					<h2 id="features-title">Por que escolher a República?</h2>
+					<div class="grid-3">
+						<article class="feature-card">
+							<div class="icon" aria-hidden="true">
+								<!-- Chef hat icon -->
+								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 21h10v-6H7v6Zm-2-8h14a3 3 0 1 0-2.674-4.255A4 4 0 0 0 8 9a4 4 0 0 0-3.326-1.755A3 3 0 1 0 5 13Z" fill="currentColor"/></svg>
+							</div>
+							<h3>🧑‍🍳 Sabor de Verdade</h3>
+							<p>Recheios artesanais e massa crocante.</p>
+						</article>
+						<article class="feature-card">
+							<div class="icon" aria-hidden="true">
+								<!-- Rocket/Delivery icon -->
+								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 3l8 8-3 3-5-5-3 3-2-2 3-3-3-3 2-2 3 3Z" stroke="currentColor" stroke-width="1.5"/><path d="M5 15l-2 6 6-2 8-8-4-4-8 8Z" stroke="currentColor" stroke-width="1.5"/></svg>
+							</div>
+							<h3>🚀 Entrega Rápida</h3>
+							<p>Chega quentinho até você.</p>
+						</article>
+						<article class="feature-card">
+							<div class="icon" aria-hidden="true">
+								<!-- Heart icon -->
+								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.1 21s-7.6-4.35-9.6-9.1C1.3 7.9 4.2 5 7.5 5c1.9 0 3.6 1 4.6 2.6C13.1 6 14.8 5 16.7 5 20 5 22.9 7.9 21.5 11.9c-2 4.75-9.4 9.1-9.4 9.1Z" fill="currentColor"/></svg>
+							</div>
+							<h3>❤️ Feito com Carinho</h3>
+							<p>Cada pastel preparado com dedicação.</p>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<!-- Cardápio preview -->
+			<section id="cardapio" class="menu-preview" aria-labelledby="menu-title">
+				<div class="container">
+					<h2 id="menu-title">Nosso Cardápio</h2>
+					<div class="grid-4">
+						<article class="menu-item">
+							<img src="assets/img/carne.png" alt="Pastel de Carne"/>
+							<div class="info">
+								<h3>Pastel de Carne</h3>
+								<span class="price">R$ 9,00</span>
+							</div>
+						</article>
+						<article class="menu-item">
+							<img src="assets/img/frango-catupiry.png" alt="Pastel de Frango com Catupiry"/>
+							<div class="info">
+								<h3>Pastel de Frango com Catupiry</h3>
+								<span class="price">R$ 10,00</span>
+							</div>
+						</article>
+						<article class="menu-item">
+							<img src="assets/img/pizza.png" alt="Pastel de Pizza"/>
+							<div class="info">
+								<h3>Pastel de Pizza</h3>
+								<span class="price">R$ 10,00</span>
+							</div>
+						</article>
+						<article class="menu-item">
+							<img src="assets/img/doce.png" alt="Pastel Doce (chocolate ou banana com canela)"/>
+							<div class="info">
+								<h3>Pastel de Brigadeiro</h3>
+								<span class="price"> R$ 10,50</span>
+							</div>
+						</article>
+					</div>
+					<div class="menu-actions">
+						<a class="btn cta" href="https://republica-dos-pasteis.vercel.app/" target="_blank" rel="noopener noreferrer">Ver Cardápio Completo</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- Caldo de Cana -->
+			<section class="cana" aria-labelledby="cana-title">
+				<div class="container cana-inner">
+					<div class="cana-image" role="img" aria-label="Copo de caldo de cana geladinho"></div>
+					<div class="cana-text">
+						<h2 id="cana-title">Caldo de Cana Geladinho</h2>
+						<p>O acompanhamento perfeito para o seu pastel!<br/>Natural, refrescante e feito na hora.</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Sobre / Contato / Local -->
+			<section id="sobre" class="about" aria-labelledby="about-title">
+				<div class="container">
+					<h2 id="about-title">Sobre Nós</h2>
+					<p>Na República dos Pastéis, tradição e sabor caminham juntos. Trabalhamos com ingredientes selecionados, massa sempre crocante e recheios generosos — do jeitinho que Aracaju gosta.</p>
+				</div>
+			</section>
+
+			<section id="contato" class="location" aria-labelledby="location-title">
+				<div class="container">
+					<h2 id="location-title">Onde Estamos</h2>
+					<ul class="contact-list">
+						<li>
+							<strong>📍 Endereço:</strong>
+							<span>Av. Doutor José Thomas D’Ávila Nabuco, 579 – Aracaju, SE</span>
+						</li>
+						<li>
+							<strong>📞 Contato:</strong>
+							<a href="tel:+5579981575934" aria-label="Ligar para (79) 98157-5934">(79) 98157-5934</a>
+						</li>
+						<li>
+							<strong>🕓 Horário:</strong>
+							<span>Terça a Domingo, das 16h às 22h</span>
+						</li>
+					</ul>
+					<div class="location-actions">
+						<a class="btn outline" href="https://www.google.com/maps/search/?api=1&query=Av.%20Doutor%20Jos%C3%A9%20Thomas%20D%E2%80%99%C3%81vila%20Nabuco%2C%20579%20%E2%80%93%20Aracaju%2C%20SE" target="_blank" rel="noopener noreferrer">Ver no Google Maps</a>
+					</div>
+					<div class="map" aria-label="Mapa com a localização da República dos Pastéis">
+						<iframe
+							title="Mapa – República dos Pastéis"
+							src="https://www.google.com/maps?q=Av.%20Doutor%20Jos%C3%A9%20Thomas%20D%E2%80%99%C3%81vila%20Nabuco%2C%20579%20%E2%80%93%20Aracaju%2C%20SE&z=16&output=embed"
+							loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"
+							allowfullscreen
+						></iframe>
+						<p class="map-fallback">
+							Caso o mapa não carregue, <a href="https://www.google.com/maps/search/?api=1&query=Av.%20Doutor%20Jos%C3%A9%20Thomas%20D%E2%80%99%C3%81vila%20Nabuco%2C%20579%20%E2%80%93%20Aracaju%2C%20SE" target="_blank" rel="noopener noreferrer">clique aqui para abrir no Google Maps</a>.
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer class="site-footer">
+			<div class="container footer-inner">
+				<div class="social">
+					<a class="social-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+						<!-- Instagram icon -->
+						<svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+					</a>
+					<a class="social-link" href="https://wa.me/5579981575934" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+						<!-- WhatsApp icon -->
+						<svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 11.5A8.5 8.5 0 1 1 7.4 3.6L4 4l1.2 3.2A8.5 8.5 0 0 1 20 11.5Z" stroke="currentColor" stroke-width="1.5"/><path d="M8.5 9.5c0 3 3 5.5 5.5 5.5.6 0 1.9-.7 2.3-1.4.2-.3.2-.7 0-1l-.7-1.1c-.2-.3-.6-.4-.9-.3l-1 .3c-.2.1-.4 0-.6-.2l-1.4-1.4c-.2-.2-.3-.4-.2-.6l.3-1c.1-.3 0-.7-.3-.9L9.9 5.7c-.3-.2-.7-.2-1 0-.7.4-1.4 1.7-1.4 2.3Z" fill="currentColor"/></svg>
+					</a>
+				</div>
+				<div class="footer-links">
+					<a href="https://republicadospasteis.vercel.app#cardapio" target="_blank" rel="noopener noreferrer">Ver Cardápio</a>
+				</div>
+				<div class="credits">
+					<small>© 2025 República dos Pastéis – Todos os direitos reservados. <br/>Desenvolvido por Adailson Rocha.</small>
+				</div>
+			</div>
+		</footer>
+
+		<!-- WhatsApp Floating Action Button (FAB) -->
+		<a
+			class="whatsapp-fab"
+			href="https://wa.me/5579981575934?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20%F0%9F%8D%9F"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="Conversar no WhatsApp"
+		>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="" width="56" height="56" loading="lazy" decoding="async" />
+		</a>
+
+		<script src="assets/js/main.js" defer></script>
+	</body>
+	</html>
+
